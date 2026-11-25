@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="pib_planning">
+  <link name="root">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/root.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c64_motor_axis_cap_inner_shoulder">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c64_motor_axis_cap_inner_shoulder.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c69_inner_part_outer_shoulder">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c69_inner_part_outer_shoulder.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c09_central_rotator_connector_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c09_central_rotator_connector_1.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c36_elbow_lower_shell">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c36_elbow_lower_shell.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c09_central_rotator_connector">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c09_central_rotator_connector.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="d01_r_palm_right">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/d01_r_palm_right.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c64_motor_axis_cap_inner_shoulder_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c64_motor_axis_cap_inner_shoulder_1.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c69_inner_part_outer_shoulder_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c69_inner_part_outer_shoulder_1.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c09_central_rotator_connector_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c09_central_rotator_connector_2.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c36_elbow_lower_shell_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c36_elbow_lower_shell_1.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="c09_central_rotator_connector_3">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/c09_central_rotator_connector_3.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="d01_l_palm_left">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/d01_l_palm_left.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="a71_inner_part">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/a71_inner_part.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="a81_motor_shaft">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/a81_motor_shaft.obj" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="central_rotator_rotation" type="revolute">
+    <origin xyz="-0.0002 0.0371999932 -0.125" rpy="1.5708 -1.00704451e-16 -1.60812398e-16" />
+    <parent link="c69_inner_part_outer_shoulder" />
+    <child link="c09_central_rotator_connector_1" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="central_rotator_rotation_1" type="revolute">
+    <origin xyz="-0.0002 0.0371999932 -0.125" rpy="1.5708 -8.9234209e-14 1.69880336e-14" />
+    <parent link="c69_inner_part_outer_shoulder_1" />
+    <child link="c09_central_rotator_connector_2" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="gearing_rotation__new_body_" type="revolute">
+    <origin xyz="-0.074 0.106 -0.1421" rpy="6.12323e-17 6.12323e-17 1.09362e-16" />
+    <parent link="root" />
+    <child link="a71_inner_part" />
+    <axis xyz="-0 -0 -1" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="nodding_rotation" type="revolute">
+    <origin xyz="-0.0415 -0.048 0.026" rpy="-2.25926e-15 5.61727e-19 -1.21612e-16" />
+    <parent link="a71_inner_part" />
+    <child link="a81_motor_shaft" />
+    <axis xyz="1 -0 -0" />
+    <limit effort="1" velocity="1" lower="-0.785398" upper="0.785398" />
+  </joint>
+  <joint name="rotate_forearm" type="revolute">
+    <origin xyz="-0.033 0.021 -0.067" rpy="1.5708 2.23136485e-16 2.25736312e-15" />
+    <parent link="c36_elbow_lower_shell" />
+    <child link="c09_central_rotator_connector" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="rotate_forearm_1" type="revolute">
+    <origin xyz="0.033 0.021 -0.067" rpy="1.5708 1.70444991e-15 -6.34659439e-15" />
+    <parent link="c36_elbow_lower_shell_1" />
+    <child link="c09_central_rotator_connector_3" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="rotation_elbow" type="revolute">
+    <origin xyz="0.033 -0.0979999229 0.0210002737" rpy="-2.7489 -1.45535006e-15 2.33552902e-15" />
+    <parent link="c09_central_rotator_connector_1" />
+    <child link="c36_elbow_lower_shell" />
+    <axis xyz="1 0 0" />
+    <limit effort="1" velocity="1" lower="-1.1781" upper="1.1781" />
+  </joint>
+  <joint name="rotation_elbow_1" type="revolute">
+    <origin xyz="-0.033 -0.0979999229 0.0210002949" rpy="-2.74889 -1.12322486e-17 7.0419652e-12" />
+    <parent link="c09_central_rotator_connector_2" />
+    <child link="c36_elbow_lower_shell_1" />
+    <axis xyz="-1 -0 -0" />
+    <limit effort="1" velocity="1" lower="-1.1781" upper="1.1781" />
+  </joint>
+  <joint name="rotation_inner_shoulder" type="revolute">
+    <origin xyz="0.087 0.106 -0.2836" rpy="3.14159 7.65526678e-19 5.6405998e-17" />
+    <parent link="root" />
+    <child link="c64_motor_axis_cap_inner_shoulder_1" />
+    <axis xyz="-1 0 0" />
+    <limit effort="1" velocity="1" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <joint name="rotation_inner_shoulder_1" type="revolute">
+    <origin xyz="-0.235 0.106000177 -0.2836" rpy="3.14159 8.60300059e-17 3.14159" />
+    <parent link="root" />
+    <child link="c64_motor_axis_cap_inner_shoulder" />
+    <axis xyz="-1 0 0" />
+    <limit effort="1" velocity="1" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <joint name="rotation_shoulder_left" type="revolute">
+    <origin xyz="0.0649 1.3664323e-07 -0.0372" rpy="1.57079633 3.6732051e-06 -1.5708" />
+    <parent link="c64_motor_axis_cap_inner_shoulder" />
+    <child link="c69_inner_part_outer_shoulder" />
+    <axis xyz="0 -1 0" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="rotation_shoulder_left_1" type="revolute">
+    <origin xyz="0.0649 1.36643228e-07 -0.0372" rpy="1.57079633 3.6732051e-06 -1.5708" />
+    <parent link="c64_motor_axis_cap_inner_shoulder_1" />
+    <child link="c69_inner_part_outer_shoulder_1" />
+    <axis xyz="0 -1 0" />
+    <limit effort="1" velocity="1" lower="-1.5708" upper="1.5708" />
+  </joint>
+  <joint name="rotation_wrist" type="revolute">
+    <origin xyz="-9.55033327e-08 -0.1704 -0.026" rpy="-1.57079265 1.57079265 -3.14159265" />
+    <parent link="c09_central_rotator_connector_3" />
+    <child link="d01_l_palm_left" />
+    <axis xyz="1 0 0" />
+    <limit effort="1" velocity="1" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <joint name="rotation_wrist_right" type="revolute">
+    <origin xyz="-9.55033323e-08 -0.1704 0.026" rpy="-1.57079265 -1.57079265 -3.14159265" />
+    <parent link="c09_central_rotator_connector" />
+    <child link="d01_r_palm_right" />
+    <axis xyz="1 0 0" />
+    <limit effort="1" velocity="1" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+</robot>
